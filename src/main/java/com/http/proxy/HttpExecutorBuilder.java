@@ -44,7 +44,7 @@ public class HttpExecutorBuilder {
 	}
 
 	private String host;
-	private HttpClient httpClient; 
+	private HttpClient httpClient;  // 需要实现 com.http.proxy.HttpClient接口的 方法
 	
 	private class HttpExecutorInvocationHandler implements InvocationHandler {
 		
